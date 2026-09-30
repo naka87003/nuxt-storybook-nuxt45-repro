@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "nuxt dev",
     "storybook": "storybook dev --ci --port 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "typecheck": "nuxt prepare && nuxt typecheck"
   },
   "dependencies": {
     "nuxt": "4.5.2",
@@ -14,6 +15,8 @@
   "devDependencies": {
     "@nuxtjs/storybook": "https://pkg.pr.new/nuxt-modules/storybook/@nuxtjs/storybook@2df8f6b",
     "@storybook/addon-docs": "10.6.1",
-    "storybook": "10.6.1"
+    "storybook": "10.6.1",
+    "typescript": "^6.0.3",
+    "vue-tsc": "^3.3.11"
   }
 }
