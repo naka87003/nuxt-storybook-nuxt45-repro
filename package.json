@@ -1,0 +1,19 @@
+{
+  "name": "nuxt-storybook-nuxt45-repro",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "nuxt dev",
+    "storybook": "storybook dev --ci --port 6006",
+    "build-storybook": "storybook build"
+  },
+  "dependencies": {
+    "nuxt": "4.5.2",
+    "vue": "^3.5.41"
+  },
+  "devDependencies": {
+    "@nuxtjs/storybook": "https://pkg.pr.new/nuxt-modules/storybook/@nuxtjs/storybook@2df8f6b",
+    "@storybook/addon-docs": "10.6.1",
+    "storybook": "10.6.1"
+  }
+}
